@@ -17,8 +17,8 @@ let entryFormContainer = () => {
             headers: { "Access-Control-Allow-Origin": "*" },
         })
             .then((arg) => {
-                console.log("Saved Successfully");
-                console.log(arg);
+                console.log("Saved Successfully",arg);
+              
             })
             .catch((err) => {
                 console.log("Error", err);
